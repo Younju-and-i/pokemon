@@ -135,7 +135,7 @@ def graphrag_pipeline(user_question):
 if __name__ == "__main__":
   # 테스트할 질문 리스트
   queries = [
-    "피카츄에 대해 알려줘",
+    "라이츄는 전기 타입이잖아 왜 풀이야?",
   ]
   
   # 질문 리스트를 순회하며 파이프라인 실행

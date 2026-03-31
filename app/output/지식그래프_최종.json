@@ -8,7 +8,7 @@
       }
     },
     {
-      "id": "P02",
+      "id": "P025",
       "label": "Pokemon",
       "properties": {
         "name": "피카츄"
@@ -22,6 +22,13 @@
       }
     },
     {
+      "id": "P026",
+      "label": "Pokemon",
+      "properties": {
+        "name": "라이츄"
+      }
+    },
+    {
       "id": "T01",
       "label": "Type",
       "properties": {
@@ -29,17 +36,59 @@
       }
     },
     {
-      "id": "P13",
+      "id": "P001",
       "label": "Pokemon",
       "properties": {
-        "name": "꼬마돌"
+        "name": "이상해씨"
       }
     },
     {
-      "id": "P14",
+      "id": "P010",
       "label": "Pokemon",
       "properties": {
-        "name": "데구리"
+        "name": "캐터피"
+      }
+    },
+    {
+      "id": "T07",
+      "label": "Type",
+      "properties": {
+        "name": "벌레"
+      }
+    },
+    {
+      "id": "P012",
+      "label": "Pokemon",
+      "properties": {
+        "name": "버터플"
+      }
+    },
+    {
+      "id": "H04",
+      "label": "Villain",
+      "properties": {
+        "name": "로켓단"
+      }
+    },
+    {
+      "id": "P133",
+      "label": "Pokemon",
+      "properties": {
+        "name": "이브이"
+      }
+    },
+    {
+      "id": "T08",
+      "label": "Type",
+      "properties": {
+        "name": "노말"
+      }
+    },
+    {
+      "id": "P002",
+      "label": "Pokemon",
+      "properties": {
+        "name": "이상해풀"
       }
     },
     {
@@ -50,31 +99,24 @@
       }
     },
     {
-      "id": "P04",
-      "label": "Pokemon",
-      "properties": {
-        "name": "이상해씨"
-      }
-    },
-    {
-      "id": "P06",
-      "label": "Pokemon",
-      "properties": {
-        "name": "이상해꽃"
-      }
-    },
-    {
-      "id": "P07",
+      "id": "P004",
       "label": "Pokemon",
       "properties": {
         "name": "파이리"
       }
     },
     {
-      "id": "P01",
-      "label": "Pokemon",
+      "id": "T02",
+      "label": "Type",
       "properties": {
-        "name": "피츄"
+        "name": "풀"
+      }
+    },
+    {
+      "id": "H05",
+      "label": "Human",
+      "properties": {
+        "name": "오박사"
       }
     },
     {
@@ -85,45 +127,73 @@
       }
     },
     {
-      "id": "P09",
+      "id": "P006",
       "label": "Pokemon",
       "properties": {
         "name": "리자몽"
       }
     },
     {
-      "id": "P11",
+      "id": "P005",
       "label": "Pokemon",
       "properties": {
-        "name": "어니부기"
+        "name": "리자드"
       }
     },
     {
-      "id": "P15",
+      "id": "P143",
       "label": "Pokemon",
       "properties": {
-        "name": "딱구리"
+        "name": "잠만보"
       }
     },
     {
-      "id": "P03",
-      "label": "Pokemon",
-      "properties": {
-        "name": "라이츄"
-      }
-    },
-    {
-      "id": "P05",
-      "label": "Pokemon",
-      "properties": {
-        "name": "이상해풀"
-      }
-    },
-    {
-      "id": "T06",
+      "id": "T11",
       "label": "Type",
       "properties": {
-        "name": "바위"
+        "name": "격투"
+      }
+    },
+    {
+      "id": "P013",
+      "label": "Pokemon",
+      "properties": {
+        "name": "뿔충이"
+      }
+    },
+    {
+      "id": "T10",
+      "label": "Type",
+      "properties": {
+        "name": "고스트"
+      }
+    },
+    {
+      "id": "P007",
+      "label": "Pokemon",
+      "properties": {
+        "name": "꼬부기"
+      }
+    },
+    {
+      "id": "P132",
+      "label": "Pokemon",
+      "properties": {
+        "name": "메타몽"
+      }
+    },
+    {
+      "id": "P009",
+      "label": "Pokemon",
+      "properties": {
+        "name": "거북왕"
+      }
+    },
+    {
+      "id": "T12",
+      "label": "Type",
+      "properties": {
+        "name": "드래곤"
       }
     },
     {
@@ -134,38 +204,31 @@
       }
     },
     {
-      "id": "T03",
-      "label": "Type",
-      "properties": {
-        "name": "독"
-      }
-    },
-    {
-      "id": "T07",
-      "label": "Type",
-      "properties": {
-        "name": "땅"
-      }
-    },
-    {
-      "id": "P10",
+      "id": "P094",
       "label": "Pokemon",
       "properties": {
-        "name": "꼬부기"
+        "name": "팬텀"
       }
     },
     {
-      "id": "P12",
+      "id": "P003",
       "label": "Pokemon",
       "properties": {
-        "name": "거북왕"
+        "name": "이상해꽃"
       }
     },
     {
-      "id": "T02",
-      "label": "Type",
+      "id": "P052",
+      "label": "Pokemon",
       "properties": {
-        "name": "풀"
+        "name": "나옹"
+      }
+    },
+    {
+      "id": "P008",
+      "label": "Pokemon",
+      "properties": {
+        "name": "어니부기"
       }
     }
   ],
@@ -173,280 +236,301 @@
     {
       "type": "HAS",
       "start_node_id": "H01",
-      "end_node_id": "P02",
+      "end_node_id": "P025",
       "properties": {
-        "episode_source": "S1E01",
+        "episode_source": [
+          "S1E01",
+          "S1E02",
+          "S1E05",
+          "S1E08",
+          "S1E09",
+          "S1E10",
+          "S1E12",
+          "S1E14",
+          "S1E18",
+          "S1E21",
+          "S1E27",
+          "S1E30",
+          "S1E31",
+          "S1E33",
+          "S1E37",
+          "S1E38",
+          "S1E39",
+          "S1E43",
+          "S1E45",
+          "S1E50",
+          "S1E58",
+          "S1E62",
+          "S1E63",
+          "S1E67",
+          "S1E68",
+          "S1E71",
+          "S1E74",
+          "S1E76",
+          "S1E77",
+          "S1E80",
+          "S1E81",
+          "S1E60"
+        ],
         "episode_title": "Pokémon, I Choose You!"
       }
     },
     {
-      "type": "BATTLES",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
+      "type": "EVOLVES_TO",
+      "start_node_id": "P001",
+      "end_node_id": "P002",
       "properties": {
-        "episode_source": "S1E01",
-        "episode_title": "Pokémon, I Choose You!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E02",
+        "episode_source": [
+          "S1E02",
+          "S1E48",
+          "S1E51",
+          "S1E70"
+        ],
         "episode_title": "Pokémon Emergency!"
       }
     },
     {
       "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
+      "start_node_id": "H02",
+      "end_node_id": "H01",
       "properties": {
-        "episode_source": "S1E02",
-        "episode_title": "Pokémon Emergency!"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "H01",
-      "end_node_id": "T01",
-      "properties": {
-        "episode_source": "S1E02",
+        "episode_source": [
+          "S1E02",
+          "S1E12",
+          "S1E82"
+        ],
         "episode_title": "Pokémon Emergency!"
       }
     },
     {
       "type": "HAS",
       "start_node_id": "H01",
-      "end_node_id": "P02",
+      "end_node_id": "P010",
       "properties": {
-        "episode_source": "S1E03",
+        "episode_source": [
+          "S1E03",
+          "S1E13"
+        ],
         "episode_title": "Ash Catches a Pokémon"
       }
     },
     {
       "type": "EVOLVES_TO",
-      "start_node_id": "P13",
-      "end_node_id": "P02",
+      "start_node_id": "P010",
+      "end_node_id": "P012",
       "properties": {
-        "episode_source": "S1E03",
+        "episode_source": [
+          "S1E03",
+          "S1E06",
+          "S1E19",
+          "S1E66"
+        ],
         "episode_title": "Ash Catches a Pokémon"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E04",
-        "episode_title": "Challenge of the Samurai"
-      }
-    },
-    {
-      "type": "EVOLVES_TO",
-      "start_node_id": "P14",
-      "end_node_id": "P13",
-      "properties": {
-        "episode_source": "S1E04",
-        "episode_title": "Challenge of the Samurai"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E05",
-        "episode_title": "Showdown in Pewter City"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E05",
-        "episode_title": "Showdown in Pewter City"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H03",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E05",
-        "episode_title": "Showdown in Pewter City"
       }
     },
     {
       "type": "HAS_TYPE",
-      "start_node_id": "P02",
+      "start_node_id": "P010",
+      "end_node_id": "T07",
+      "properties": {
+        "episode_source": [
+          "S1E03"
+        ],
+        "episode_title": "Ash Catches a Pokémon"
+      }
+    },
+    {
+      "type": "BATTLES",
+      "start_node_id": "H01",
+      "end_node_id": "H04",
+      "properties": {
+        "episode_source": [
+          "S1E03",
+          "S1E16",
+          "S1E41"
+        ],
+        "episode_title": "Ash Catches a Pokémon"
+      }
+    },
+    {
+      "type": "COMPANION",
+      "start_node_id": "H01",
+      "end_node_id": "H02",
+      "properties": {
+        "episode_source": [
+          "S1E03",
+          "S1E06",
+          "S1E07",
+          "S1E09",
+          "S1E16",
+          "S1E18",
+          "S1E19",
+          "S1E20",
+          "S1E24",
+          "S1E50",
+          "S1E67"
+        ],
+        "episode_title": "Ash Catches a Pokémon"
+      }
+    },
+    {
+      "type": "HAS_TYPE",
+      "start_node_id": "P002",
+      "end_node_id": "T01",
+      "properties": {
+        "episode_source": [
+          "S1E04"
+        ],
+        "episode_title": "Challenge of the Samurai"
+      }
+    },
+    {
+      "type": "BATTLES",
+      "start_node_id": "H01",
+      "end_node_id": "P001",
+      "properties": {
+        "episode_source": [
+          "S1E04"
+        ],
+        "episode_title": "Challenge of the Samurai"
+      }
+    },
+    {
+      "type": "HAS_TYPE",
+      "start_node_id": "P004",
       "end_node_id": "T04",
       "properties": {
-        "episode_source": "S1E05",
+        "episode_source": [
+          "S1E05",
+          "S1E06",
+          "S1E24",
+          "S1E28",
+          "S1E49"
+        ],
         "episode_title": "Showdown in Pewter City"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E06",
-        "episode_title": "Clefairy and the Moon Stone"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H03",
-      "properties": {
-        "episode_source": "S1E06",
-        "episode_title": "Clefairy and the Moon Stone"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E07",
-        "episode_title": "The Water Flowers of Cerulean City"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E07",
-        "episode_title": "The Water Flowers of Cerulean City"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T01",
-      "properties": {
-        "episode_source": "S1E07",
-        "episode_title": "The Water Flowers of Cerulean City"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E08",
-        "episode_title": "The Path to the Pokémon League"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E09",
-        "episode_title": "The School of Hard Knocks"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E09",
-        "episode_title": "The School of Hard Knocks"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H03",
-      "properties": {
-        "episode_source": "S1E09",
-        "episode_title": "The School of Hard Knocks"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E10",
-        "episode_title": "Bulbasaur and the Hidden Village"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P04",
-      "end_node_id": "T01",
-      "properties": {
-        "episode_source": "S1E10",
-        "episode_title": "Bulbasaur and the Hidden Village"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E10",
-        "episode_title": "Bulbasaur and the Hidden Village"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H02",
-      "end_node_id": "H03",
-      "properties": {
-        "episode_source": "S1E10",
-        "episode_title": "Bulbasaur and the Hidden Village"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H03",
-      "end_node_id": "P06",
-      "properties": {
-        "episode_source": "S1E10",
-        "episode_title": "Bulbasaur and the Hidden Village"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E11",
-        "episode_title": "Charmander – The Stray Pokémon"
       }
     },
     {
       "type": "BATTLES",
       "start_node_id": "H01",
-      "end_node_id": "P07",
+      "end_node_id": "H03",
       "properties": {
-        "episode_source": "S1E11",
+        "episode_source": [
+          "S1E05"
+        ],
+        "episode_title": "Showdown in Pewter City"
+      }
+    },
+    {
+      "type": "COMPANION",
+      "start_node_id": "H01",
+      "end_node_id": "H03",
+      "properties": {
+        "episode_source": [
+          "S1E06",
+          "S1E09",
+          "S1E16"
+        ],
+        "episode_title": "Clefairy and the Moon Stone"
+      }
+    },
+    {
+      "type": "HAS_TYPE",
+      "start_node_id": "P025",
+      "end_node_id": "T01",
+      "properties": {
+        "episode_source": [
+          "S1E07",
+          "S1E14",
+          "S1E20",
+          "S1E22",
+          "S1E23",
+          "S1E24",
+          "S1E26",
+          "S1E27",
+          "S1E28",
+          "S1E32",
+          "S1E34",
+          "S1E35",
+          "S1E45",
+          "S1E47",
+          "S1E52",
+          "S1E53",
+          "S1E56",
+          "S1E59",
+          "S1E64",
+          "S1E66",
+          "S1E69",
+          "S1E73",
+          "S1E75",
+          "S1E82",
+          "S1E29",
+          "S1E44",
+          "S1E54"
+        ],
+        "episode_title": "The Water Flowers of Cerulean City"
+      }
+    },
+    {
+      "type": "BATTLES",
+      "start_node_id": "H01",
+      "end_node_id": "H02",
+      "properties": {
+        "episode_source": [
+          "S1E07"
+        ],
+        "episode_title": "The Water Flowers of Cerulean City"
+      }
+    },
+    {
+      "type": "EVOLVES_TO",
+      "start_node_id": "P004",
+      "end_node_id": "P005",
+      "properties": {
+        "episode_source": [
+          "S1E10",
+          "S1E11",
+          "S1E15",
+          "S1E17",
+          "S1E24",
+          "S1E31",
+          "S1E57",
+          "S1E59"
+        ],
+        "episode_title": "Bulbasaur and the Hidden Village"
+      }
+    },
+    {
+      "type": "BATTLES",
+      "start_node_id": "P025",
+      "end_node_id": "P026",
+      "properties": {
+        "episode_source": [
+          "S1E10"
+        ],
+        "episode_title": "Bulbasaur and the Hidden Village"
+      }
+    },
+    {
+      "type": "COMPANION",
+      "start_node_id": "H01",
+      "end_node_id": "P025",
+      "properties": {
+        "episode_source": [
+          "S1E11"
+        ],
         "episode_title": "Charmander – The Stray Pokémon"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P01",
+      "type": "BATTLES",
+      "start_node_id": "P025",
+      "end_node_id": "P004",
       "properties": {
-        "episode_source": "S1E12",
-        "episode_title": "Here Comes the Squirtle Squad"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H02",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E12",
-        "episode_title": "Here Comes the Squirtle Squad"
+        "episode_source": [
+          "S1E11"
+        ],
+        "episode_title": "Charmander – The Stray Pokémon"
       }
     },
     {
@@ -454,1187 +538,626 @@
       "start_node_id": "H03",
       "end_node_id": "H01",
       "properties": {
-        "episode_source": "S1E12",
+        "episode_source": [
+          "S1E12"
+        ],
         "episode_title": "Here Comes the Squirtle Squad"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "HAS_TYPE",
+      "start_node_id": "P004",
+      "end_node_id": "T05",
       "properties": {
-        "episode_source": "S1E13",
+        "episode_source": [
+          "S1E12"
+        ],
+        "episode_title": "Here Comes the Squirtle Squad"
+      }
+    },
+    {
+      "type": "EVOLVES_TO",
+      "start_node_id": "P025",
+      "end_node_id": "P026",
+      "properties": {
+        "episode_source": [
+          "S1E12",
+          "S1E28",
+          "S1E33",
+          "S1E39",
+          "S1E43",
+          "S1E56",
+          "S1E64",
+          "S1E68",
+          "S1E71",
+          "S1E74",
+          "S1E77",
+          "S1E81"
+        ],
+        "episode_title": "Here Comes the Squirtle Squad"
+      }
+    },
+    {
+      "type": "HAS_TYPE",
+      "start_node_id": "P010",
+      "end_node_id": "T02",
+      "properties": {
+        "episode_source": [
+          "S1E13"
+        ],
+        "episode_title": "Mystery at the Lighthouse"
+      }
+    },
+    {
+      "type": "BATTLES",
+      "start_node_id": "P025",
+      "end_node_id": "H04",
+      "properties": {
+        "episode_source": [
+          "S1E13"
+        ],
         "episode_title": "Mystery at the Lighthouse"
       }
     },
     {
       "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T01",
+      "start_node_id": "P025",
+      "end_node_id": "T02",
       "properties": {
-        "episode_source": "S1E13",
-        "episode_title": "Mystery at the Lighthouse"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E14",
-        "episode_title": "Electric Shock Showdown"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P09",
-      "end_node_id": "T04",
-      "properties": {
-        "episode_source": "S1E14",
-        "episode_title": "Electric Shock Showdown"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T04",
-      "properties": {
-        "episode_source": "S1E15",
+        "episode_source": [
+          "S1E15",
+          "S1E75",
+          "S1E79"
+        ],
         "episode_title": "Battle Aboard the St. Anne"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "HAS_TYPE",
+      "start_node_id": "P025",
+      "end_node_id": "T04",
       "properties": {
-        "episode_source": "S1E16",
-        "episode_title": "Pokémon Shipwreck"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H02",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E16",
+        "episode_source": [
+          "S1E16",
+          "S1E40"
+        ],
         "episode_title": "Pokémon Shipwreck"
       }
     },
     {
       "type": "HAS",
       "start_node_id": "H01",
-      "end_node_id": "P02",
+      "end_node_id": "P001",
       "properties": {
-        "episode_source": "S1E17",
+        "episode_source": [
+          "S1E17"
+        ],
         "episode_title": "Island of the Giant Pokémon"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P04",
+      "type": "HAS_TYPE",
+      "start_node_id": "P001",
+      "end_node_id": "T02",
       "properties": {
-        "episode_source": "S1E17",
-        "episode_title": "Island of the Giant Pokémon"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P07",
-      "properties": {
-        "episode_source": "S1E17",
-        "episode_title": "Island of the Giant Pokémon"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E18",
-        "episode_title": "Beauty and the Beach"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E18",
-        "episode_title": "Beauty and the Beach"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P11",
-      "properties": {
-        "episode_source": "S1E19",
-        "episode_title": "Tentacool & Tentacruel"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H02",
-      "end_node_id": "H01",
-      "properties": {
-        "episode_source": "S1E19",
+        "episode_source": [
+          "S1E19",
+          "S1E27",
+          "S1E31",
+          "S1E70"
+        ],
         "episode_title": "Tentacool & Tentacruel"
       }
     },
     {
       "type": "BATTLES",
-      "start_node_id": "P11",
-      "end_node_id": "T01",
-      "properties": {
-        "episode_source": "S1E19",
-        "episode_title": "Tentacool & Tentacruel"
-      }
-    },
-    {
-      "type": "HAS",
       "start_node_id": "H01",
-      "end_node_id": "P02",
+      "end_node_id": "P006",
       "properties": {
-        "episode_source": "S1E20",
+        "episode_source": [
+          "S1E20",
+          "S1E44"
+        ],
         "episode_title": "The Ghost of Maiden's Peak"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H03",
-      "end_node_id": "P15",
+      "type": "EVOLVES_TO",
+      "start_node_id": "P011",
+      "end_node_id": "P012",
       "properties": {
-        "episode_source": "S1E20",
-        "episode_title": "The Ghost of Maiden's Peak"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T04",
-      "properties": {
-        "episode_source": "S1E21",
+        "episode_source": [
+          "S1E21"
+        ],
         "episode_title": "Bye Bye Butterfree"
       }
     },
     {
-      "type": "HAS_TYPE",
-      "start_node_id": "P03",
-      "end_node_id": "T04",
+      "type": "EVOLVES_TO",
+      "start_node_id": "P005",
+      "end_node_id": "P006",
       "properties": {
-        "episode_source": "S1E22",
+        "episode_source": [
+          "S1E22"
+        ],
         "episode_title": "Abra and the Psychic Showdown (Part 1)"
       }
     },
     {
-      "type": "HAS_TYPE",
-      "start_node_id": "P05",
-      "end_node_id": "T02",
+      "type": "BATTLES",
+      "start_node_id": "P025",
+      "end_node_id": "P143",
       "properties": {
-        "episode_source": "S1E22",
-        "episode_title": "Abra and the Psychic Showdown (Part 1)"
+        "episode_source": [
+          "S1E23"
+        ],
+        "episode_title": "The Tower of Terror (Part 2)"
       }
     },
     {
       "type": "EVOLVES_TO",
-      "start_node_id": "P03",
-      "end_node_id": "P05",
+      "start_node_id": "P133",
+      "end_node_id": "P134",
       "properties": {
-        "episode_source": "S1E22",
-        "episode_title": "Abra and the Psychic Showdown (Part 1)"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E22",
-        "episode_title": "Abra and the Psychic Showdown (Part 1)"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E23",
+        "episode_source": [
+          "S1E23",
+          "S1E58",
+          "S1E73"
+        ],
         "episode_title": "The Tower of Terror (Part 2)"
+      }
+    },
+    {
+      "type": "EVOLVES_TO",
+      "start_node_id": "P133",
+      "end_node_id": "P135",
+      "properties": {
+        "episode_source": [
+          "S1E23",
+          "S1E58"
+        ],
+        "episode_title": "The Tower of Terror (Part 2)"
+      }
+    },
+    {
+      "type": "EVOLVES_TO",
+      "start_node_id": "P133",
+      "end_node_id": "P136",
+      "properties": {
+        "episode_source": [
+          "S1E23",
+          "S1E58"
+        ],
+        "episode_title": "The Tower of Terror (Part 2)"
+      }
+    },
+    {
+      "type": "BATTLES",
+      "start_node_id": "H01",
+      "end_node_id": "P025",
+      "properties": {
+        "episode_source": [
+          "S1E24",
+          "S1E55",
+          "S1E65",
+          "S1E79",
+          "S1E29"
+        ],
+        "episode_title": "Haunter vs. Kadabra (Part 3)"
+      }
+    },
+    {
+      "type": "HAS",
+      "start_node_id": "H03",
+      "end_node_id": "P026",
+      "properties": {
+        "episode_source": [
+          "S1E24"
+        ],
+        "episode_title": "Haunter vs. Kadabra (Part 3)"
+      }
+    },
+    {
+      "type": "BATTLES",
+      "start_node_id": "H02",
+      "end_node_id": "P004",
+      "properties": {
+        "episode_source": [
+          "S1E24"
+        ],
+        "episode_title": "Haunter vs. Kadabra (Part 3)"
       }
     },
     {
       "type": "HAS_TYPE",
-      "start_node_id": "P13",
-      "end_node_id": "T03",
+      "start_node_id": "P025",
+      "end_node_id": "T11",
       "properties": {
-        "episode_source": "S1E23",
-        "episode_title": "The Tower of Terror (Part 2)"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E24",
-        "episode_title": "Haunter vs. Kadabra (Part 3)"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "P02",
-      "end_node_id": "T06",
-      "properties": {
-        "episode_source": "S1E24",
-        "episode_title": "Haunter vs. Kadabra (Part 3)"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "P02",
-      "end_node_id": "T05",
-      "properties": {
-        "episode_source": "S1E24",
-        "episode_title": "Haunter vs. Kadabra (Part 3)"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E25",
+        "episode_source": [
+          "S1E25"
+        ],
         "episode_title": "Primeape Goes Bananas"
       }
     },
     {
       "type": "BATTLES",
-      "start_node_id": "T03",
-      "end_node_id": "H01",
+      "start_node_id": "H01",
+      "end_node_id": "P013",
       "properties": {
-        "episode_source": "S1E25",
+        "episode_source": [
+          "S1E25"
+        ],
         "episode_title": "Primeape Goes Bananas"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E26",
-        "episode_title": "Pokémon Scent-sation!"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H03",
-      "properties": {
-        "episode_source": "S1E26",
-        "episode_title": "Pokémon Scent-sation!"
       }
     },
     {
       "type": "BATTLES",
       "start_node_id": "H01",
-      "end_node_id": "H02",
+      "end_node_id": "P004",
       "properties": {
-        "episode_source": "S1E26",
+        "episode_source": [
+          "S1E26",
+          "S1E78"
+        ],
         "episode_title": "Pokémon Scent-sation!"
       }
     },
     {
-      "type": "HAS_TYPE",
-      "start_node_id": "P01",
-      "end_node_id": "T01",
+      "type": "EVOLVES_TO",
+      "start_node_id": "P001",
+      "end_node_id": "P003",
       "properties": {
-        "episode_source": "S1E26",
-        "episode_title": "Pokémon Scent-sation!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E27",
+        "episode_source": [
+          "S1E27",
+          "S1E61"
+        ],
         "episode_title": "Hypno's Naptime"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "EVOLVES_TO",
+      "start_node_id": "P002",
+      "end_node_id": "P003",
       "properties": {
-        "episode_source": "S1E28",
-        "episode_title": "Pokémon Fashion Flash"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T05",
-      "properties": {
-        "episode_source": "S1E28",
-        "episode_title": "Pokémon Fashion Flash"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T04",
-      "properties": {
-        "episode_source": "S1E29",
-        "episode_title": "The Punchy Pokémon"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E29",
-        "episode_title": "The Punchy Pokémon"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E30",
-        "episode_title": "Sparks Fly for Magnemite"
+        "episode_source": [
+          "S1E27",
+          "S1E46"
+        ],
+        "episode_title": "Hypno's Naptime"
       }
     },
     {
       "type": "BATTLES",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "start_node_id": "H04",
+      "end_node_id": "P006",
       "properties": {
-        "episode_source": "S1E30",
-        "episode_title": "Sparks Fly for Magnemite"
+        "episode_source": [
+          "S1E27"
+        ],
+        "episode_title": "Hypno's Naptime"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "HAS_TYPE",
+      "start_node_id": "P013",
+      "end_node_id": "T03",
       "properties": {
-        "episode_source": "S1E31",
-        "episode_title": "Dig Those Diglett!"
+        "episode_source": [
+          "S1E27"
+        ],
+        "episode_title": "Hypno's Naptime"
       }
     },
     {
-      "type": "COMPANION",
-      "start_node_id": "H02",
-      "end_node_id": "H03",
-      "properties": {
-        "episode_source": "S1E31",
-        "episode_title": "Dig Those Diglett!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E32",
-        "episode_title": "The Ninja-Poké Showdown"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H03",
+      "type": "BATTLES",
+      "start_node_id": "H04",
       "end_node_id": "H01",
       "properties": {
-        "episode_source": "S1E32",
-        "episode_title": "The Ninja-Poké Showdown"
+        "episode_source": [
+          "S1E28",
+          "S1E34",
+          "S1E36",
+          "S1E47"
+        ],
+        "episode_title": "Pokémon Fashion Flash"
+      }
+    },
+    {
+      "type": "HAS",
+      "start_node_id": "H03",
+      "end_node_id": "P004",
+      "properties": {
+        "episode_source": [
+          "S1E28"
+        ],
+        "episode_title": "Pokémon Fashion Flash"
+      }
+    },
+    {
+      "type": "HAS_TYPE",
+      "start_node_id": "P133",
+      "end_node_id": "T08",
+      "properties": {
+        "episode_source": [
+          "S1E30"
+        ],
+        "episode_title": "Sparks Fly for Magnemite"
       }
     },
     {
       "type": "BATTLES",
       "start_node_id": "H01",
-      "end_node_id": "H02",
+      "end_node_id": "P132",
       "properties": {
-        "episode_source": "S1E32",
+        "episode_source": [
+          "S1E32"
+        ],
         "episode_title": "The Ninja-Poké Showdown"
       }
     },
     {
       "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T05",
+      "start_node_id": "P025",
+      "end_node_id": "T07",
       "properties": {
-        "episode_source": "S1E32",
-        "episode_title": "The Ninja-Poké Showdown"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E33",
-        "episode_title": "The Flame Pokémon-athon!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E34",
-        "episode_title": "The Kangaskhan Kid"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T05",
-      "properties": {
-        "episode_source": "S1E35",
-        "episode_title": "The Legend of Dratini"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E35",
-        "episode_title": "The Legend of Dratini"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E36",
+        "episode_source": [
+          "S1E36"
+        ],
         "episode_title": "The Bridge Bike Gang"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "EVOLVES_TO",
+      "start_node_id": "P133",
+      "end_node_id": "P026",
       "properties": {
-        "episode_source": "S1E37",
+        "episode_source": [
+          "S1E37"
+        ],
         "episode_title": "Ditto's Mysterious Mansion"
       }
     },
     {
-      "type": "HAS_TYPE",
-      "start_node_id": "P04",
-      "end_node_id": "T06",
+      "type": "BATTLES",
+      "start_node_id": "H04",
+      "end_node_id": "P026",
       "properties": {
-        "episode_source": "S1E38",
+        "episode_source": [
+          "S1E38"
+        ],
         "episode_title": "Electric Soldier Porygon"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E39",
-        "episode_title": "Pikachu's Goodbye"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "H01",
-      "end_node_id": "H03",
-      "properties": {
-        "episode_source": "S1E40",
-        "episode_title": "The Battling Eevee Brothers"
-      }
-    },
-    {
       "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T01",
+      "start_node_id": "P009",
+      "end_node_id": "T07",
       "properties": {
-        "episode_source": "S1E41",
+        "episode_source": [
+          "S1E41"
+        ],
         "episode_title": "Wake Up Snorlax!"
       }
     },
     {
-      "type": "HAS",
+      "type": "HAS_COMPANION",
       "start_node_id": "H01",
-      "end_node_id": "P02",
+      "end_node_id": "H02",
       "properties": {
-        "episode_source": "S1E41",
-        "episode_title": "Wake Up Snorlax!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E42",
+        "episode_source": [
+          "S1E42"
+        ],
         "episode_title": "Showdown at Dark City"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "BATTLES",
+      "start_node_id": "P025",
+      "end_node_id": "P133",
       "properties": {
-        "episode_source": "S1E43",
-        "episode_title": "The March of the Exeggutor Squad"
-      }
-    },
-    {
-      "type": "EVOLVES_TO",
-      "start_node_id": "P02",
-      "end_node_id": "P07",
-      "properties": {
-        "episode_source": "S1E43",
-        "episode_title": "The March of the Exeggutor Squad"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E44",
-        "episode_title": "The Problem with Paras"
+        "episode_source": [
+          "S1E42",
+          "S1E73"
+        ],
+        "episode_title": "Showdown at Dark City"
       }
     },
     {
       "type": "HAS_TYPE",
-      "start_node_id": "P10",
-      "end_node_id": "T01",
+      "start_node_id": "P025",
+      "end_node_id": "T12",
       "properties": {
-        "episode_source": "S1E44",
-        "episode_title": "The Problem with Paras"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E45",
-        "episode_title": "The Song of Jigglypuff"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E46",
+        "episode_source": [
+          "S1E46"
+        ],
         "episode_title": "Attack of the Prehistoric Pokémon"
       }
     },
     {
-      "type": "EVOLVES_TO",
-      "start_node_id": "P04",
-      "end_node_id": "P06",
+      "type": "BATTLES",
+      "start_node_id": "P026",
+      "end_node_id": "P009",
       "properties": {
-        "episode_source": "S1E46",
+        "episode_source": [
+          "S1E46"
+        ],
         "episode_title": "Attack of the Prehistoric Pokémon"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "HAS_TYPE",
+      "start_node_id": "P025",
+      "end_node_id": "T05",
       "properties": {
-        "episode_source": "S1E48",
+        "episode_source": [
+          "S1E48"
+        ],
         "episode_title": "Holy Matrimony!"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H02",
-      "end_node_id": "P11",
+      "type": "BATTLES",
+      "start_node_id": "H01",
+      "end_node_id": "P007",
       "properties": {
-        "episode_source": "S1E49",
+        "episode_source": [
+          "S1E49"
+        ],
         "episode_title": "So Near, Yet So Farfetch'd"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "HAS_TYPE",
+      "start_node_id": "P001",
+      "end_node_id": "T01",
       "properties": {
-        "episode_source": "S1E50",
-        "episode_title": "Who Gets to Keep Togepi?"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E50",
-        "episode_title": "Who Gets to Keep Togepi?"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P04",
-      "properties": {
-        "episode_source": "S1E51",
+        "episode_source": [
+          "S1E51"
+        ],
         "episode_title": "Bulbasaur's Mysterious Garden"
       }
     },
     {
       "type": "EVOLVES_TO",
-      "start_node_id": "P04",
-      "end_node_id": "P05",
+      "start_node_id": "P004",
+      "end_node_id": "P006",
       "properties": {
-        "episode_source": "S1E51",
-        "episode_title": "Bulbasaur's Mysterious Garden"
-      }
-    },
-    {
-      "type": "EVOLVES_TO",
-      "start_node_id": "P05",
-      "end_node_id": "P06",
-      "properties": {
-        "episode_source": "S1E51",
-        "episode_title": "Bulbasaur's Mysterious Garden"
+        "episode_source": [
+          "S1E52"
+        ],
+        "episode_title": "Princess vs. Princess"
       }
     },
     {
       "type": "BATTLES",
       "start_node_id": "H02",
+      "end_node_id": "H04",
+      "properties": {
+        "episode_source": [
+          "S1E52"
+        ],
+        "episode_title": "Princess vs. Princess"
+      }
+    },
+    {
+      "type": "HAS",
+      "start_node_id": "H02",
+      "end_node_id": "P094",
+      "properties": {
+        "episode_source": [
+          "S1E53"
+        ],
+        "episode_title": "The Purr-fect Hero"
+      }
+    },
+    {
+      "type": "COMPANION",
+      "start_node_id": "H04",
       "end_node_id": "H01",
       "properties": {
-        "episode_source": "S1E52",
-        "episode_title": "Princess vs. Princess"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P10",
-      "end_node_id": "T05",
-      "properties": {
-        "episode_source": "S1E52",
-        "episode_title": "Princess vs. Princess"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H02",
-      "end_node_id": "P10",
-      "properties": {
-        "episode_source": "S1E52",
-        "episode_title": "Princess vs. Princess"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E53",
-        "episode_title": "The Purr-fect Hero"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H02",
-      "end_node_id": "H03",
-      "properties": {
-        "episode_source": "S1E53",
-        "episode_title": "The Purr-fect Hero"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E54",
-        "episode_title": "The Case of the K-9 Caper!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E55",
+        "episode_source": [
+          "S1E55"
+        ],
         "episode_title": "Pokémon Paparazzi"
       }
     },
     {
-      "type": "COMPANION",
-      "start_node_id": "H03",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E55",
-        "episode_title": "Pokémon Paparazzi"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E56",
-        "episode_title": "The Ultimate Test"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E57",
-        "episode_title": "The Breeding Center Secret"
-      }
-    },
-    {
       "type": "HAS_TYPE",
-      "start_node_id": "P15",
+      "start_node_id": "P001",
       "end_node_id": "T05",
       "properties": {
-        "episode_source": "S1E57",
+        "episode_source": [
+          "S1E57"
+        ],
         "episode_title": "The Breeding Center Secret"
       }
     },
     {
       "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P10",
-      "properties": {
-        "episode_source": "S1E58",
-        "episode_title": "Riddle Me This"
-      }
-    },
-    {
-      "type": "HAS",
       "start_node_id": "H02",
-      "end_node_id": "P02",
+      "end_node_id": "P003",
       "properties": {
-        "episode_source": "S1E58",
-        "episode_title": "Riddle Me This"
+        "episode_source": [
+          "S1E61"
+        ],
+        "episode_title": "The Misty Mermaid"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "COMPANION",
+      "start_node_id": "H02",
+      "end_node_id": "P052",
       "properties": {
-        "episode_source": "S1E59",
-        "episode_title": "Volcanic Panic"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E60",
-        "episode_title": "Beach Blank-Out Blastoise"
+        "episode_source": [
+          "S1E61"
+        ],
+        "episode_title": "The Misty Mermaid"
       }
     },
     {
       "type": "HAS_TYPE",
-      "start_node_id": "P10",
-      "end_node_id": "T05",
-      "properties": {
-        "episode_source": "S1E60",
-        "episode_title": "Beach Blank-Out Blastoise"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P12",
+      "start_node_id": "P025",
       "end_node_id": "T06",
       "properties": {
-        "episode_source": "S1E60",
-        "episode_title": "Beach Blank-Out Blastoise"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H02",
-      "end_node_id": "P12",
-      "properties": {
-        "episode_source": "S1E61",
-        "episode_title": "The Misty Mermaid"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P12",
-      "end_node_id": "T05",
-      "properties": {
-        "episode_source": "S1E61",
-        "episode_title": "The Misty Mermaid"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E63",
-        "episode_title": "The Battle of the Badge"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T07",
-      "properties": {
-        "episode_source": "S1E63",
-        "episode_title": "The Battle of the Badge"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E64",
-        "episode_title": "It's Mr. Mime Time!"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H03",
-      "properties": {
-        "episode_source": "S1E64",
-        "episode_title": "It's Mr. Mime Time!"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "T01",
-      "end_node_id": "H01",
-      "properties": {
-        "episode_source": "S1E64",
-        "episode_title": "It's Mr. Mime Time!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E65",
+        "episode_source": [
+          "S1E65"
+        ],
         "episode_title": "Holiday Hi-Jynx"
       }
     },
     {
-      "type": "COMPANION",
+      "type": "HAS_COMPANION",
       "start_node_id": "H01",
-      "end_node_id": "H03",
+      "end_node_id": "P025",
       "properties": {
-        "episode_source": "S1E65",
-        "episode_title": "Holiday Hi-Jynx"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E66",
-        "episode_title": "Snow Way Out"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E67",
-        "episode_title": "Showdown at the Po-ké Corral"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H03",
-      "end_node_id": "H01",
-      "properties": {
-        "episode_source": "S1E67",
-        "episode_title": "Showdown at the Po-ké Corral"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H02",
-      "end_node_id": "H01",
-      "properties": {
-        "episode_source": "S1E67",
-        "episode_title": "Showdown at the Po-ké Corral"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T01",
-      "properties": {
-        "episode_source": "S1E67",
-        "episode_title": "Showdown at the Po-ké Corral"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P14",
-      "properties": {
-        "episode_source": "S1E68",
-        "episode_title": "The Evolution Solution"
-      }
-    },
-    {
-      "type": "EVOLVES_TO",
-      "start_node_id": "P03",
-      "end_node_id": "P09",
-      "properties": {
-        "episode_source": "S1E68",
-        "episode_title": "The Evolution Solution"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P10",
-      "end_node_id": "T05",
-      "properties": {
-        "episode_source": "S1E68",
-        "episode_title": "The Evolution Solution"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P14",
-      "end_node_id": "T02",
-      "properties": {
-        "episode_source": "S1E68",
-        "episode_title": "The Evolution Solution"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P09",
-      "end_node_id": "T01",
-      "properties": {
-        "episode_source": "S1E68",
-        "episode_title": "The Evolution Solution"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E69",
-        "episode_title": "The Pi-Kahuna"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P04",
-      "properties": {
-        "episode_source": "S1E70",
-        "episode_title": "Make Room for"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E71",
-        "episode_title": "Lights, Camera, Quack-tion!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E72",
+        "episode_source": [
+          "S1E72"
+        ],
         "episode_title": "Go West, Young Meowth"
       }
     },
     {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
+      "type": "BATTLES",
+      "start_node_id": "H04",
+      "end_node_id": "P025",
       "properties": {
-        "episode_source": "S1E73",
-        "episode_title": "To Master the Onixpected!"
+        "episode_source": [
+          "S1E72"
+        ],
+        "episode_title": "Go West, Young Meowth"
       }
     },
     {
       "type": "BATTLES",
-      "start_node_id": "T05",
+      "start_node_id": "H01",
+      "end_node_id": "P008",
+      "properties": {
+        "episode_source": [
+          "S1E78"
+        ],
+        "episode_title": "Fire and Ice"
+      }
+    },
+    {
+      "type": "HAS_TYPE",
+      "start_node_id": "P008",
+      "end_node_id": "T01",
+      "properties": {
+        "episode_source": [
+          "S1E78"
+        ],
+        "episode_title": "Fire and Ice"
+      }
+    },
+    {
+      "type": "COMPANION",
+      "start_node_id": "H01",
       "end_node_id": "H01",
       "properties": {
-        "episode_source": "S1E73",
-        "episode_title": "To Master the Onixpected!"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T04",
-      "properties": {
-        "episode_source": "S1E74",
-        "episode_title": "The Ancient Puzzle of Pokémopolis"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E75",
-        "episode_title": "Bad to the Bone!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E76",
-        "episode_title": "All Fired Up!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E77",
-        "episode_title": "Round One: Begin!"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E78",
-        "episode_title": "Fire and Ice"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E78",
-        "episode_title": "Fire and Ice"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P04",
-      "end_node_id": "T01",
-      "properties": {
-        "episode_source": "S1E79",
-        "episode_title": "The Fourth Round Rumble"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H02",
-      "end_node_id": "P04",
-      "properties": {
-        "episode_source": "S1E79",
-        "episode_title": "The Fourth Round Rumble"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E79",
-        "episode_title": "The Fourth Round Rumble"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E80",
+        "episode_source": [
+          "S1E80"
+        ],
         "episode_title": "A Friend in Deed"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H03",
-      "properties": {
-        "episode_source": "S1E80",
-        "episode_title": "A Friend in Deed"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E81",
-        "episode_title": "Friend and Foe Alike"
-      }
-    },
-    {
-      "type": "HAS_TYPE",
-      "start_node_id": "P02",
-      "end_node_id": "T01",
-      "properties": {
-        "episode_source": "S1E81",
-        "episode_title": "Friend and Foe Alike"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H03",
-      "end_node_id": "P07",
-      "properties": {
-        "episode_source": "S1E81",
-        "episode_title": "Friend and Foe Alike"
-      }
-    },
-    {
-      "type": "HAS",
-      "start_node_id": "H01",
-      "end_node_id": "P02",
-      "properties": {
-        "episode_source": "S1E82",
-        "episode_title": "Friends to the End"
-      }
-    },
-    {
-      "type": "COMPANION",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E82",
-        "episode_title": "Friends to the End"
-      }
-    },
-    {
-      "type": "BATTLES",
-      "start_node_id": "H01",
-      "end_node_id": "H02",
-      "properties": {
-        "episode_source": "S1E82",
-        "episode_title": "Friends to the End"
       }
     }
   ]

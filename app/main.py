@@ -13,44 +13,39 @@ PropertyValue = Union[str, int, float, bool, None]
 # 1. 고정 노드 정의 (채훈님 스타일: ID 기반 관리)
 # ---------------------------
 ALLOWED_NODES = {
-    # Trainers / Humans
+    # --- 인물 및 조직 (Humans & Villains) ---
     "지우": {"id": "H01", "label": "Trainer"},
     "이슬이": {"id": "H02", "label": "Trainer"},
     "웅이": {"id": "H03", "label": "Trainer"},
-    
-    # [전기] 피카츄 계열
-    "피츄": {"id": "P01", "label": "Pokemon"},
-    "피카츄": {"id": "P02", "label": "Pokemon"},
-    "라이츄": {"id": "P03", "label": "Pokemon"},
-    
-    # [풀/독] 이상해씨 계열
-    "이상해씨": {"id": "P04", "label": "Pokemon"},
-    "이상해풀": {"id": "P05", "label": "Pokemon"},
-    "이상해꽃": {"id": "P06", "label": "Pokemon"},
+    "로켓단": {"id": "H04", "label": "Villain"},
+    "오박사": {"id": "H05", "label": "Human"},
+    "간호순": {"id": "H06", "label": "Human"},
+    "여경": {"id": "H07", "label": "Human"},
 
-    # [불꽃] 파이리 계열
-    "파이리": {"id": "P07", "label": "Pokemon"},
-    "리자드": {"id": "P08", "label": "Pokemon"},
-    "리자몽": {"id": "P09", "label": "Pokemon"},
+    # --- 포켓몬 (시즌 1 도감 및 진화 트리 반영) ---
+    "이상해씨": {"id": "P001", "label": "Pokemon"}, "이상해풀": {"id": "P002", "label": "Pokemon"}, "이상해꽃": {"id": "P003", "label": "Pokemon"},
+    "파이리": {"id": "P004", "label": "Pokemon"}, "리자드": {"id": "P005", "label": "Pokemon"}, "리자몽": {"id": "P006", "label": "Pokemon"},
+    "꼬부기": {"id": "P007", "label": "Pokemon"}, "어니부기": {"id": "P008", "label": "Pokemon"}, "거북왕": {"id": "P009", "label": "Pokemon"},
+    "캐터피": {"id": "P010", "label": "Pokemon"}, "단데기": {"id": "P011", "label": "Pokemon"}, "버터플": {"id": "P012", "label": "Pokemon"},
+    "뿔충이": {"id": "P013", "label": "Pokemon"}, "딱충이": {"id": "P014", "label": "Pokemon"}, "독침붕": {"id": "P015", "label": "Pokemon"},
+    "구구": {"id": "P016", "label": "Pokemon"}, "피전": {"id": "P017", "label": "Pokemon"}, "피죤투": {"id": "P018", "label": "Pokemon"},
+    "피카츄": {"id": "P025", "label": "Pokemon"}, "라이츄": {"id": "P026", "label": "Pokemon"},
+    "나옹": {"id": "P052", "label": "Pokemon"}, "고덕": {"id": "P054", "label": "Pokemon"}, "골덕": {"id": "P055", "label": "Pokemon"},
+    "가디": {"id": "P058", "label": "Pokemon"}, "윈디": {"id": "P059", "label": "Pokemon"},
+    "발챙이": {"id": "P060", "label": "Pokemon"}, "수륙챙이": {"id": "P061", "label": "Pokemon"}, "강챙이": {"id": "P062", "label": "Pokemon"},
+    "케이시": {"id": "P063", "label": "Pokemon"}, "윤겔라": {"id": "P064", "label": "Pokemon"}, "후딘": {"id": "P065", "label": "Pokemon"},
+    "고스": {"id": "P092", "label": "Pokemon"}, "고우스트": {"id": "P093", "label": "Pokemon"}, "팬텀": {"id": "P094", "label": "Pokemon"},
+    "잉어킹": {"id": "P129", "label": "Pokemon"}, "갸라도스": {"id": "P130", "label": "Pokemon"},
+    "이브이": {"id": "P133", "label": "Pokemon"}, "샤미드": {"id": "P134", "label": "Pokemon"}, "쥬피썬더": {"id": "P135", "label": "Pokemon"}, "부스터": {"id": "P136", "label": "Pokemon"},
+    "메타몽": {"id": "P132", "label": "Pokemon"}, "잠만보": {"id": "P143", "label": "Pokemon"}, 
+    "미뇽": {"id": "P147", "label": "Pokemon"}, "신뇽": {"id": "P148", "label": "Pokemon"}, "망나뇽": {"id": "P149", "label": "Pokemon"},
+    "뮤츠": {"id": "P150", "label": "Pokemon"}, "뮤": {"id": "P151", "label": "Pokemon"},
 
-    # [물] 꼬부기 계열
-    "꼬부기": {"id": "P10", "label": "Pokemon"},
-    "어니부기": {"id": "P11", "label": "Pokemon"},
-    "거북왕": {"id": "P12", "label": "Pokemon"},
-    
-    # [바위/땅] 꼬마돌 계열
-    "꼬마돌": {"id": "P13", "label": "Pokemon"},
-    "데구리": {"id": "P14", "label": "Pokemon"},
-    "딱구리": {"id": "P15", "label": "Pokemon"},
-    
-    # Types
-    "전기": {"id": "T01", "label": "Type"},
-    "풀": {"id": "T02", "label": "Type"},
-    "독": {"id": "T03", "label": "Type"},
-    "불꽃": {"id": "T04", "label": "Type"},
-    "물": {"id": "T05", "label": "Type"},
-    "바위": {"id": "T06", "label": "Type"},
-    "땅": {"id": "T07", "label": "Type"},
+    # --- 타입 (Types) ---
+    "전기": {"id": "T01", "label": "Type"}, "풀": {"id": "T02", "label": "Type"}, "독": {"id": "T03", "label": "Type"},
+    "불꽃": {"id": "T04", "label": "Type"}, "물": {"id": "T05", "label": "Type"}, "비행": {"id": "T06", "label": "Type"},
+    "벌레": {"id": "T07", "label": "Type"}, "노말": {"id": "T08", "label": "Type"}, "에스퍼": {"id": "T09", "label": "Type"},
+    "고스트": {"id": "T10", "label": "Type"}, "격투": {"id": "T11", "label": "Type"}, "드래곤": {"id": "T12", "label": "Type"}
 }
 
 # LLM에게 전달할 노드 리스트 문자열 생성
@@ -81,103 +76,107 @@ class GraphResponse(BaseModel):
 # LLM 템플릿 (STRICT RULES 적용)
 # ---------------------------
 STRICT_TEMPLATE = f"""
-You are a specialized Knowledge Graph Extraction System.
-Your goal is to extract entities and relationships from English Pokemon synopses into a structured Korean-based JSON.
+### ROLE
+You are a High-Precision Entity-Relationship Extraction System for Pokemon Season 1.
+Convert English synopses into a deduplicated Korean JSON Knowledge Graph.
 
-**[CRITICAL MAPPING TABLE]**
-If you see these English names, you MUST map them to the corresponding ID and Korean Name:
-- "Ash / Ash Ketchum" -> ID: "H01", Name: "지우"
-- "Misty" -> ID: "H02", Name: "이슬이"
-- "Brock" -> ID: "H03", Name: "웅이"
-- "Pikachu" -> ID: "P02", Name: "피카츄"
-- "Bulbasaur" -> ID: "P04", Name: "이상해씨"
-- "Ivysaur" -> ID: "P05", Name: "이상해풀"
-- "Venusaur" -> ID: "P06", Name: "이상해꽃"
-- "Charmander" -> ID: "P07", Name: "파이리"
-- "Squirtle" -> ID: "P10", Name: "꼬부기"
+### KNOWLEDGE BASE (SEASON 1 - IMPLICIT)
+If these Pokemon appear, ALWAYS include their Type and Evolution nodes/relationships:
+- [P001 이상해씨]: Type[T02, T03] | Evolves to: P002
+- [P004 파이리]: Type[T04] | Evolves to: P005
+- [P007 꼬부기]: Type[T05] | Evolves to: P008
+- [P010 캐터피]: Type[T07] | Evolves to: P011 -> P012(Type T06)
+- [P025 피카츄]: Type[T01] | Evolves to: P026
+- [P133 이브이]: Type[T08] | Evolves to: P134, P135, P136
 
-**ALLOWED NODES (Full List)**:
+### ALLOWED NODES (Target Vocabulary)
 {NODES_PROMPT_STR}
 
-**ALLOWED RELATIONSHIPS**:
-- HAS (Trainer(H) → Pokemon(P))
-- HAS_TYPE (Pokemon(P) → Type(T))
-- EVOLVES_TO (Pokemon(P) → Pokemon(P))
-- COMPANION (Trainer(H) → Trainer(H))
-- BATTLES (Trainer or Pokemon → Trainer or Pokemon)
+### STRICT EXTRACTION RULES
+1. **RELATIONSHIP TYPES**: Use ONLY these 5 types. NO EXCEPTIONS.
+   - `HAS`: Trainer owns a Pokemon.
+   - `HAS_TYPE`: Pokemon belongs to a Type.
+   - `EVOLVES_TO`: Pokemon evolves into another.
+   - `COMPANION`: Trainers traveling together (Ash, Misty, Brock).
+   - `BATTLES`: Direct combat between Trainers or Pokemon.
 
-**[STRICT RULES - NO EXCEPTIONS]**
-1. **ONLY USE PROVIDED LIST**: Do NOT create any nodes that are not in the ALLOWED NODES list. 
-   - If you see "Ditto", "Primeape", or any other Pokemon NOT in the list, **IGNORE THEM ENTIRELY**.
-2. **NO NEW NAMES**: Do not invent names like "디타토" or "프라임파이브". 
-   - Every node must have a name from the list (e.g., "지우", "피카츄", "이상해씨").
-3. **ID MATCHING**: The "id" field MUST exactly match the ID from the list (e.g., "H01", "P02").
-4. **RELATIONSHIP ONLY FOR LISTED NODES**: Only create relationships between nodes that exist in the ALLOWED NODES list.
+2. **DEDUPLICATION**: 
+   - Within a single episode, if the same relationship occurs multiple times, **return it only ONCE**.
+   - Do not create redundant strings like "TRAVELED_WITH". Map it to `COMPANION`.
 
-**[IMPORTANT: RESPONSE FORMAT]**
-- Return ONLY the JSON object.
-- DO NOT include any introductory text (e.g., "Here is the JSON", "Sure!").
-- DO NOT include any markdown code blocks (```json).
-- Start the response with "{" and end it with "}".
+3. **LOCALIZATION**: 
+   - Map: Ash->지우, Misty->이슬이, Brock->웅이, Team Rocket->로켓단.
+   - Properties 'name' MUST be in Korean as defined in ALLOWED NODES.
 
-
-**OUTPUT FORMAT**:
+4. **FILTERING**:
+   - Only use IDs from the ALLOWED NODES list.
+   - If an entity is not in the list, skip it entirely.
+5. **NO LISTS IN PROPERTIES**: 
+   - Property values must be a SINGLE string or number.
+   - BAD: "Type": ["T01"]
+   - GOOD: "Type": "T01"
+6. **NO INFERENCE / NO HALLUCINATION**: 
+   - Extract relationships ONLY if they are explicitly stated in the text.
+   - Do not assume a Trainer 'HAS' a Pokemon just because they are in the same scene. 
+   - Do not invent backstories or evolutions not mentioned in the synopsis or the IMPLICIT KNOWLEDGE BASE.
+   
+7. **WHEN IN DOUBT, SKIP**: 
+   - If the relationship between two entities is ambiguous or not clearly defined by the 5 allowed types, DO NOT extract it. 
+   - Accuracy is more important than quantity.
+   
+### OUTPUT FORMAT
+- Return ONLY raw JSON. No conversational filler.
+- Example:
 {{
-  "nodes": [
-    {{"id": "H01", "label": "Trainer", "properties": {{"name": "지우"}}}}
-  ],
-  "relationships": [
-    {{"type": "HAS", "start_node_id": "H01", "end_node_id": "P02"}}
-  ]
+  "nodes": [{{"id": "H01", "label": "Trainer", "properties": {{"name": "지우"}}}}],
+  "relationships": [{{"type": "HAS", "start_node_id": "H01", "end_node_id": "P025"}}]
 }}
 """
 
 def llm_call_structured(prompt: str, model: str = "llama3.1") -> GraphResponse:
     response = ollama.chat(
         model=model,
-        messages=[{"role": "user", "content": prompt + "\n\nReturn ONLY valid JSON."}]
+        messages=[{"role": "user", "content": prompt + "\n\nIMPORTANT: Output ONLY JSON."}]
     )
     text = response["message"]["content"].strip()
     
-    # 1. 우리가 정의한 유효한 ID 세트 만들기 (H01, P02, T01 등)
     valid_ids = {v["id"] for v in ALLOWED_NODES.values()}
-    # 2. ID를 넣으면 한글 이름을 돌려주는 사전 (이름 보정용)
     id_to_ko_name = {v["id"]: k for k, v in ALLOWED_NODES.items()}
 
     try:
-        # JSON 추출 및 클리닝
-        clean_text = re.sub(r"```json|```", "", text).strip()
-        json_match = re.search(r"(\{.*\})", clean_text, re.DOTALL)
+        # --- [보정 1] JSON 구간만 정규식으로 강제 추출 (설명글 제거) ---
+        json_match = re.search(r"(\{.*\})", text, re.DOTALL)
         if not json_match: raise Exception("No JSON found")
         
         parsed = json.loads(json_match.group(1))
         
-        # --- [여기서부터 필터링 핵심 로직] ---
-        
-        # 3. 노드 필터링: 유효한 ID를 가진 노드만 남김
+        # --- [보정 2] 노드 속성값 리스트 에러 방지 (Pydantic 에러 해결) ---
         raw_nodes = parsed.get("nodes", [])
         filtered_nodes = []
         for n in raw_nodes:
             node_id = n.get("id")
             if node_id in valid_ids:
-                # LLM이 이름을 영어로 썼어도 우리 리스트의 한글 이름으로 강제 교체
+                props = n.get("properties", {})
+                # 리스트(['T01'])로 들어오면 문자열('T01')로 강제 변환
+                clean_props = {k: (v[0] if isinstance(v, list) else v) for k, v in props.items()}
+                n["properties"] = clean_props
                 n["properties"]["name"] = id_to_ko_name[node_id]
                 filtered_nodes.append(n)
         
-        # 4. 관계 필터링: 시작점과 끝점 ID가 모두 유효한 리스트에 있을 때만 유지
+        # --- [보정 3] 관계 데이터 필터링 ---
         raw_rels = parsed.get("relationships", [])
         filtered_rels = []
         for r in raw_rels:
-            s_id = r.get("start_node_id")
-            e_id = r.get("end_node_id")
-            if s_id in valid_ids and e_id in valid_ids:
+            if r.get("start_node_id") in valid_ids and r.get("end_node_id") in valid_ids:
+                # 관계 속성도 리스트 방지 로직 적용
+                r_props = r.get("properties", {}) or {}
+                r["properties"] = {k: (v[0] if isinstance(v, list) else v) for k, v in r_props.items()}
                 filtered_rels.append(r)
         
-        # 최종 정제된 결과 반환
         return GraphResponse(nodes=filtered_nodes, relationships=filtered_rels)
         
     except Exception as e:
-        print(f"   - Parsing Error: {e}. Raw: {text[:50]}...")
+        print(f"   - 파싱 재시도 필요: {e}")
         return GraphResponse(nodes=[], relationships=[])
 
 
@@ -283,12 +282,33 @@ def add_metadata(graph_response, episode):
 
 def combine_chunk_graphs(chunk_graphs: List[GraphResponse]) -> GraphResponse:
     all_nodes = {}
-    all_rels = []
+    unique_rels = {}  # (start, end, type)을 키로 사용하여 중복 제거
+
     for g in chunk_graphs:
+        # 노드 병합 (ID 기준)
         for node in g.nodes:
             all_nodes[node.id] = node
-        all_rels.extend(g.relationships)
-    return GraphResponse(nodes=list(all_nodes.values()), relationships=all_rels)
+        
+        # 관계 병합 및 출처 누적
+        for rel in g.relationships:
+            # 중복 체크용 키 생성
+            rel_key = (rel.start_node_id, rel.end_node_id, rel.type)
+            
+            if rel_key not in unique_rels:
+                # 처음 보는 관계라면 등록
+                # 출처 정보를 리스트로 변환하여 관리
+                source = rel.properties.get("episode_source")
+                rel.properties["episode_source"] = [source] if source else []
+                unique_rels[rel_key] = rel
+            else:
+                # 이미 있는 관계라면 출처 정보만 추가 (중복 방지)
+                new_source = rel.properties.get("episode_source")
+                existing_rel = unique_rels[rel_key]
+                
+                if new_source and new_source not in existing_rel.properties["episode_source"]:
+                    existing_rel.properties["episode_source"].append(new_source)
+
+    return GraphResponse(nodes=list(all_nodes.values()), relationships=list(unique_rels.values()))
 
 def save_output(episodes, final_graph):
     os.makedirs("output", exist_ok=True)

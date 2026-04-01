@@ -75,12 +75,17 @@ class GraphResponse(BaseModel):
 # ---------------------------
 # LLM 템플릿 (STRICT RULES 적용)
 # ---------------------------
+# 포켓몬 시즌 1 지식 그래프 추출을 위한 고정밀 프롬프트 템플릿
 STRICT_TEMPLATE = f"""
 ### ROLE
+# 역할: 포켓몬 시즌 1 전용 고정밀 엔티티-관계 추출 시스템
+# 목표: 영어 시놉시스를 중복이 제거된 한국어 JSON 지식 그래프로 변환
 You are a High-Precision Entity-Relationship Extraction System for Pokemon Season 1.
 Convert English synopses into a deduplicated Korean JSON Knowledge Graph.
 
 ### KNOWLEDGE BASE (SEASON 1 - IMPLICIT)
+# 암묵적 지식: 텍스트에 구체적인 설명이 없더라도 아래 포켓몬이 등장하면 
+# 해당 타입(Type)과 진화(Evolution) 노드 및 관계를 반드시 포함할 것
 If these Pokemon appear, ALWAYS include their Type and Evolution nodes/relationships:
 - [P001 이상해씨]: Type[T02, T03] | Evolves to: P002
 - [P004 파이리]: Type[T04] | Evolves to: P005
@@ -90,41 +95,52 @@ If these Pokemon appear, ALWAYS include their Type and Evolution nodes/relations
 - [P133 이브이]: Type[T08] | Evolves to: P134, P135, P136
 
 ### ALLOWED NODES (Target Vocabulary)
+# 허용 노드: 시스템에서 정의한 ID 리스트(NODES_PROMPT_STR) 내의 데이터만 사용할 것
 {NODES_PROMPT_STR}
 
 ### STRICT EXTRACTION RULES
+# 규칙 1. 관계 타입 제한: 정의된 5가지(HAS, HAS_TYPE, EVOLVES_TO, COMPANION, BATTLES) 외 사용 금지
 1. **RELATIONSHIP TYPES**: Use ONLY these 5 types. NO EXCEPTIONS.
-   - `HAS`: Trainer owns a Pokemon.
-   - `HAS_TYPE`: Pokemon belongs to a Type.
-   - `EVOLVES_TO`: Pokemon evolves into another.
-   - `COMPANION`: Trainers traveling together (Ash, Misty, Brock).
-   - `BATTLES`: Direct combat between Trainers or Pokemon.
+   - `HAS`: 트레이너의 포켓몬 소유
+   - `HAS_TYPE`: 포켓몬의 속성(타입)
+   - `EVOLVES_TO`: 포켓몬 진화 단계
+   - `COMPANION`: 함께 여행하는 동료 (지우, 이슬, 웅)
+   - `BATTLES`: 트레이너나 포켓몬 간의 직접적인 전투
 
+# 규칙 2. 중복 제거: 한 에피소드 내 동일 관계는 한 번만 반환. 유사 의미는 COMPANION으로 통합
 2. **DEDUPLICATION**: 
    - Within a single episode, if the same relationship occurs multiple times, **return it only ONCE**.
    - Do not create redundant strings like "TRAVELED_WITH". Map it to `COMPANION`.
 
+# 규칙 3. 현지화: 주요 인물 및 단체 이름을 한국어로 매핑 (Ash -> 지우 등)
 3. **LOCALIZATION**: 
    - Map: Ash->지우, Misty->이슬이, Brock->웅이, Team Rocket->로켓단.
    - Properties 'name' MUST be in Korean as defined in ALLOWED NODES.
 
+# 규칙 4. 필터링: ALLOWED NODES 리스트에 없는 엔티티는 모두 무시(Skip)
 4. **FILTERING**:
    - Only use IDs from the ALLOWED NODES list.
    - If an entity is not in the list, skip it entirely.
+
+# 규칙 5. 속성값 리스트 금지: Pydantic 검증 오류 방지를 위해 속성값은 반드시 단일 문자열/숫자로 출력
 5. **NO LISTS IN PROPERTIES**: 
    - Property values must be a SINGLE string or number.
    - BAD: "Type": ["T01"]
    - GOOD: "Type": "T01"
+
+# 규칙 6. 유추/할루시네이션 금지: 텍스트에 명시된 사실만 추출. 장면만 보고 소유 관계 등을 추측하지 말 것
 6. **NO INFERENCE / NO HALLUCINATION**: 
    - Extract relationships ONLY if they are explicitly stated in the text.
    - Do not assume a Trainer 'HAS' a Pokemon just because they are in the same scene. 
    - Do not invent backstories or evolutions not mentioned in the synopsis or the IMPLICIT KNOWLEDGE BASE.
-   
+
+# 규칙 7. 모호함 발생 시 스킵: 관계가 불분명하면 추출하지 말 것 (양보다 정확도가 우선)
 7. **WHEN IN DOUBT, SKIP**: 
    - If the relationship between two entities is ambiguous or not clearly defined by the 5 allowed types, DO NOT extract it. 
    - Accuracy is more important than quantity.
-   
+
 ### OUTPUT FORMAT
+# 출력 형식: 대화 문구 없이 오직 순수 JSON 데이터만 반환
 - Return ONLY raw JSON. No conversational filler.
 - Example:
 {{
